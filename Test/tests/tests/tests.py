@@ -1,3 +1,8 @@
+import csv
+import sys
+import operator
+#this will open our CVS file
+with open("chicago High school progress report.csv","rb") as source:
 print("This program is designed to study the progress of Chicago public high schools\n") 
 print("To do so, we will analyze some data and make some comparisons\n") 
 print("First we will show you the average of 4-Year and 5-Year graduation rate\n") 
